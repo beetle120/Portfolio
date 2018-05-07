@@ -3,19 +3,41 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
     <meta charset="utf-8" />
     <title></title>
 </head>
 <body>
     <div class="timeline">
-        <div class="timelineItems">
-            <div class="tafe"></div>
-            <div class="uni"></div>
-            <div class="sumtotal"></div>
-            <div class="c-learning"></div>
-            <div class="learningSeat"></div>
-            <div class="personal"></div>
+        <div class="header">
+            <div class="heading"><h1>My Experence</h1></div>
+            <div class="downArrow"></div>
+            <div id="popupBox">
+                <div id="content"></div>
+            </div>
+            <div class="timelineItems">
+                <div class="startYear">2003</div>
+                <div class="edu">Education</div>
+                <div class="work">Work exprence</div>
+                <div class="endYear">2018</div>
+                <div class="tafe expClick"></div>
+                <div class="uni expClick"></div>
+                <div class="sumtotal expClick"></div>
+                <div class="clearning expClick"></div>
+                <div class="learningSeat expClick"></div>
+                <div class="personal expClick"></div>
+            </div>
+
         </div>
-    </div>
+        <div class="instuctionsBox">
+            <div class="instuctions">
+                <p>
+                    Scroll Over or Select the timeline above to see more infomation
+                </p>
+            </div>
+        </div>
 </body>
 </html>
